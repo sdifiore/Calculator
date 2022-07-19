@@ -39,7 +39,7 @@
         <Button x:Name="threeButton" Grid.Row="4" Grid.Column="2" Content="3" Click="NumberButton_Click" Margin="5"/>
         <Button x:Name="plusButton" Grid.Row="4" Grid.Column="3" Content="+" Click="OperationButton_Click" Margin="5"/>
         <Button x:Name="zeroButton" Grid.Row="5" Grid.ColumnSpan="2" Content="0" Click="NumberButton_Click" Margin="5"/>
-        <Button x:Name="dotButton" Grid.Row="5" Grid.Column="2" Content="." Margin="5"/>
+        <Button x:Name="dotButton" Grid.Row="5" Grid.Column="2" Content="." Click="dotButton_Click" Margin="5"/>
         <Button x:Name="equalsButton" Grid.Row="5" Grid.Column="3" Content="=" Margin="5"/>
     </Grid>
 </Window>
