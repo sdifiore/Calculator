@@ -10,20 +10,6 @@
     <Window.Resources>
         <SolidColorBrush x:Key="numberColor" Color="#444"/>
         <SolidColorBrush x:Key="operatorColor" Color="Orange"/>
-        <Style x:Key="CalculatorButtonStyle" TargetType="Button">
-            <Setter Property="FontSize" Value="24"/>
-            <Setter Property="Padding" Value="0,0,0,0"/>
-            <Setter Property="BorderThickness" Value="0"/>
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="Foreground" Value="Black"/>
-        </Style>
-        <Style x:Key="CalculatorDisplayStyle" TargetType="TextBox">
-            <Setter Property="FontSize" Value="24"/>
-            <Setter Property="Padding" Value="0,0,0,0"/>
-            <Setter Property="BorderThickness" Value="0"/>
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="Foreground" Value="Black"/>
-        </Style>
     </Window.Resources>
     
     <Grid Margin="10">
